@@ -1,4 +1,5 @@
-```git clone https://github.com/SalupovTeam/statuspage
+```
+git clone https://github.com/SalupovTeam/statuspage
 cd statuspage
 docker build -t statuspage . 
 docker run -d \
