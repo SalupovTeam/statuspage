@@ -68,12 +68,20 @@
 
         .status-bars {
             display: flex;
-            gap: 1px;
+            gap: 2px;
             height: 32px;
         }
 
         .bar {
             flex: 1;
+            border-radius: 4px;
+            transition: all 0.1s ease-in-out;
+            transform-origin: center;
+        }
+
+        .bar:hover {
+            transform: scaleY(1.2);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .bar.green { background: #10B981; }
