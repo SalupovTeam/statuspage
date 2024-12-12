@@ -7,3 +7,5 @@ docker logs statuspage
 ```
 
 Make sure to replace logo in templates/logo.png with your own :)
+
+!!! Status WONT update by itself, you need to make another script for auto updates
